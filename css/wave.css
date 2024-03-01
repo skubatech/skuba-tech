@@ -1,0 +1,18 @@
+.aa {
+  --size: 800px;
+  width: var(--size);
+  min-height: var(--size);
+  border-radius: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+css-doodle {
+  width: var(--size);
+  height: var(--size);
+}
+
+
+
+

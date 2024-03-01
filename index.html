@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>skuba.tech</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/wave.css">
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="icon" href="img/icons/icon.svg" sizes="any">
+  <link rel="icon" href="img/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icons/icon.svg">
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.38.4/css-doodle.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <object type="image/svg+xml" data="./img/icons/icon.svg" class="logo"></object>
+    <section class="title_wrapper">
+<!--      <span class="sub_title">&#8288;&#8211;&#8288;&#8288;&#8288;Вместе с нами</span>-->
+      <h1 class="title">
+        <object type="image/svg+xml" data="./img/icons/head_t1.svg" class="head_t1"></object>
+        <object type="image/svg+xml" data="./img/icons/head_t2.svg" class="head_t1"></object>
+      </h1>
+    </section>
+  </header>
+
+  <div style="position: relative; height: 800px">
+    <section class="aa">
+      <css-doodle grid="21">
+        :doodle {
+        grid-gap: 10px;
+        --rotate: @r(0, 360)deg;
+        width: 75vh;
+        height: 75vh;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        }
+        border:4px solid hsla(
+        calc(calc(20 - @index() / 1000) * 2.5),
+        100%,
+        65%,
+        calc(@index() / 100)
+        );
+        border-radius: 2px;
+        --scaledelay: calc((
+        (@abs(@abs(@row - @size-row/2) + @abs(@col - @size-col/2) - @size-col) / @size-col) - 1) * -1.5s) ;
+        animation-name: scale;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-delay: var(--scaledelay);
+        transform: scale(0.8);
+        @keyframes scale {
+        0%{
+        border:4px solid hsla(
+        calc(calc(191 - @index()/100) ),
+        100%,
+        50%,
+        calc(@index() / 100)
+        );
+        }
+        50%{
+
+        border: 4px solid hsla(
+        calc(calc(191 - @index()/10) ),
+        100%,
+        80%,
+        calc(@index() / 100)
+        );
+
+        }
+        100%{
+        border:4px solid hsla(
+        calc(calc(191 - @index()/10) ),
+        100%,
+        50%,
+        calc(@index() / 100)
+        );
+        }
+        }
+      </css-doodle>
+    </section>
+  </div>
+  <div style="position: relative">
+    <section class="aa">
+      <span class="mesh"></span>
+      <span class="mesh2"></span>
+      <css-doodle grid="21">
+        :doodle {
+        grid-gap: 10px;
+        --rotate: @r(0, 360)deg;
+        width: 75vh;
+        height: 75vh;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        }
+        border:4px solid hsla(
+        calc(calc(20 - @index() / 1000) * 2.5),
+        100%,
+        65%,
+        calc(@index() / 100)
+        );
+        border-radius: 2px;
+        --scaledelay: calc((
+        (@abs(@abs(@row - @size-row/2) + @abs(@col - @size-col/2) - @size-col) / @size-col) - 1) * -1.5s) ;
+        animation-name: scale;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-delay: var(--scaledelay);
+        transform: scale(0.8);
+        @keyframes scale {
+        0%{
+        border:4px solid hsla(
+        calc(calc(17 - @index()/10) ),
+        96%,
+        60%,
+        calc(@index() / 100)
+        );
+        transform: scale(0.8);
+        }
+        50%{
+
+        border: 4px solid hsla(
+        calc(calc(25 - @index()/20) ),
+        96%,
+        70%,
+        calc(@index() / 100)
+        );
+        transform: scale(0.9);
+
+        }
+        100%{
+        border:4px solid hsla(
+        calc(calc(17 - @index()/30) ),
+        96%,
+        60%,
+        calc(@index() / 100)
+        );
+        transform: scale(0.8);
+        }
+        }
+      </css-doodle>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+
+<!--  <section class="wide-content">-->
+<!--    <span class="l-top bg"></span>-->
+<!--    <span class="l-bottom bg"></span>-->
+<!--    <span class="r-top bg"></span>-->
+<!--    <span class="r-bottom bg"></span>-->
+<!--  </section>-->
+
+
+<!--  <section class="bottom">-->
+<!--    <span class="cont"></span>-->
+<!--  </section>-->
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
