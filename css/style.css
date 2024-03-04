@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'Mono Hairline';
+  src: url('../fonts/mono/FeatureMono-Hairline.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Mono Thin';
+  src: url('../fonts/mono/FeatureMono-Thin.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Mono Light';
+  src: url('../fonts/mono/FeatureMono-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Mono Regular';
+  src: url('../fonts/mono/FeatureMono-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Mono Medium';
+  src: url('../fonts/mono/FeatureMono-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Mono Bold';
+  src: url('../fonts/mono/FeatureMono-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Nairi';
+  src: url('../fonts/nairi/nairi_normal.otf');
+  font-weight: 400;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -126,4 +168,160 @@ body {
   rotate: 45deg;
   height: 200px;
   width: 200px;
+}
+
+.about_projects {
+  padding-top: 40px;
+}
+
+.about_title_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: rgba(255, 255, 255, .9);
+}
+
+.about_of_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about_of {
+  font-family: 'Mono Regular';
+  font-size: 24px;
+  color: rgba(255, 255, 255, .5);
+}
+
+.about_line {
+  width: 60px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.about_title {
+  font-family: 'Mono Medium';
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+.about_case {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 152px;
+}
+
+.about_case_wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+  margin-top: 45px;
+}
+
+.about_case_des {
+  display: flex;
+  flex-direction: column;
+  width: 670px;
+}
+
+.about_case_name {
+  font-family: 'Mono Medium';
+  font-size: 52px;
+  color: rgba(255, 255, 255, .9);
+}
+
+.about_case_text {
+  font-family: 'Nairi';
+  font-size: 30px;
+  color: rgba(255, 255, 255, .9);
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.about_case_link {
+  font-family: 'Mono Medium';
+  color: rgba(255, 255, 255, .9);
+  font-size: 32px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about_case_preview {
+  position: relative;
+  min-width: 936px;
+  margin-right: calc(var(--b-padding)*-1);
+}
+
+.about_case_preview_back {
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.about_case_preview_desktop {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+}
+
+.about_case_preview_phone {
+  position: absolute;
+  left: 52px;
+  top: 162px;
+}
+
+.case_info_back {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 192px;
+  z-index: -1;
+  margin-right: calc(var(--b-padding)*-1);
+}
+
+.case_info {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  height: 152px;
+  width: 98%;
+  padding: 0 77px;
+  background-color: rgba(0, 0, 0, .9);
+}
+
+.case_info_line {
+  background-color: rgba(255, 255, 255, .7);
+  width: 2px;
+  height: 40%;
+}
+
+.case {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 192px;
+  margin-top: 109px;
+}
+
+.case_info_item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 278px;
+  min-height: 120px;
+}
+
+.case_info_item_num {
+  font-family: 'Mono Regular';
+  font-size: 36px;
+  color: rgba(255, 255, 255);
+}
+
+.case_info_item_text {
+  font-family: 'Nairi';
+  font-size: 24px;
+  color: rgba(255, 255, 255);
 }
