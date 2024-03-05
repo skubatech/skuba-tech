@@ -55,12 +55,13 @@ body {
   --b-padding: 250px;
   background: var(--main-bg);
   padding: 0 var(--b-padding);
+  /* overflow-x: hidden; */
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  padding: 90px 0;
+  padding: 90px 0 132px 0;
   gap: 50px;
 }
 
@@ -170,7 +171,29 @@ body {
   width: 200px;
 }
 
-.about_projects {
+.head_nav {
+  display: flex;
+  gap: 9px;
+}
+
+.head_link {
+  padding: 12px 32px;
+  list-style-type: none;
+}
+
+.head_link a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Mono Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+#connect {
+  background-image: url('../img/images/connectImg.png');
+}
+
+.about {
   padding-top: 40px;
 }
 
@@ -204,6 +227,29 @@ body {
   font-family: 'Mono Medium';
   font-size: 52px;
   text-transform: uppercase;
+}
+
+.about_work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 92px;
+  padding-bottom: 124px;
+}
+
+.about_work_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_work_title {
+  font-family: 'Mono Medium';
+  font-size: 48px;
+  color: rgba(255, 255, 255, .9);
+}
+
+.about_work_text {
+  color: rgba(255, 255, 255, .9);
 }
 
 .about_case {
@@ -259,10 +305,17 @@ body {
   width: 100%;
 }
 
+.testImg {
+  position: absolute;
+  left: 20px;
+  top: 19px;
+}
+
 .about_case_preview_desktop {
   position: absolute;
   left: 20px;
-  top: 16px;
+  top: 19px;
+  filter: brightness(0.6);
 }
 
 .about_case_preview_phone {
@@ -286,7 +339,7 @@ body {
   align-items: center;
   gap: 21px;
   height: 152px;
-  width: 98%;
+  width: 100%;
   padding: 0 77px;
   background-color: rgba(0, 0, 0, .9);
 }
@@ -304,6 +357,25 @@ body {
   justify-content: center;
   height: 192px;
   margin-top: 109px;
+}
+
+.test {
+  /* margin-right: calc(var(--b-padding)*-1); */
+  display: flex;
+  align-items: center;
+}
+
+.test1{
+
+}
+
+.test2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.test3{
+
 }
 
 .case_info_item {
