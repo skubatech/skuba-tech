@@ -1,0 +1,31 @@
+.about_work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 92px;
+  padding-bottom: 124px;
+}
+
+.about_work_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_work_title {
+  font-family: "Mono Medium";
+  font-size: 48px;
+  color: var(--main-white9);
+}
+
+.about_work_des {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    max-width: 672px;
+}
+
+.about_work_text {
+  color: var(--main-white9);
+  font-family: 'Nairi';
+  font-size: 30px;
+}
