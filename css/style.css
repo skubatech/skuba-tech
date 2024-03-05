@@ -305,12 +305,6 @@ body {
   width: 100%;
 }
 
-.testImg {
-  position: absolute;
-  left: 20px;
-  top: 19px;
-}
-
 .about_case_preview_desktop {
   position: absolute;
   left: 20px;
@@ -357,25 +351,6 @@ body {
   justify-content: center;
   height: 192px;
   margin-top: 109px;
-}
-
-.test {
-  /* margin-right: calc(var(--b-padding)*-1); */
-  display: flex;
-  align-items: center;
-}
-
-.test1{
-
-}
-
-.test2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.test3{
-
 }
 
 .case_info_item {
