@@ -172,19 +172,37 @@
 }
 
 .footer_bg {
-  right: 0;
   z-index: -1;
+  max-width: 1676px;
   margin-left: calc(var(--b-padding) * -1);
 }
 
-.footer_logo {
+.footer_des {
+  display: flex;
+  gap: 48px;
   position: absolute;
-  top: 0;
+  top: 20px;
+  width: 100%;
+}
+
+.footer_logo {
   padding: 32px;
   /* position: absolute; */
   width: 192px;
   height: auto;
-  background-color: rgb(0, 0, 0, .8);
+  background-color: rgb(0, 0, 0, .9);
+}
+
+.footer_info {
+  background-color: rgb(0, 0, 0, .9);
+  padding: 16px 42px;
+  max-width: 912px;
+}
+
+.footer_info_text {
+  font-family: 'Nairi';
+  font-size: 24px;
+  color: white;
 }
 
 .footer_bg_bt {
