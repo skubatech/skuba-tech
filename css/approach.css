@@ -29,3 +29,31 @@
   font-family: 'Nairi';
   font-size: 30px;
 }
+
+.approach_bg {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  margin-left: calc(var(--b-padding) * -1);
+}
+
+.approach_steps {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 16px;
+  /* margin-right: 17px; */
+}
+
+.approach_step {
+  font-family: 'Mono Medium';
+  font-size: 28px;
+  color: var(--main-white9);
+  padding: 20px 44px; 
+  text-transform: uppercase;
+  max-height: 68px;
+}
+
+#activeStep {
+  background-color: rgb(0, 0, 0, .8);
+}

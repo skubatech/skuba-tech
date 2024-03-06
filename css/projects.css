@@ -74,16 +74,17 @@
   position: absolute;
   left: 52px;
   top: 162px;
+  filter: drop-shadow(16px 17px 10px rgba(0, 0, 0, 0.4));
 }
 
 .case_info_back {
   position: absolute;
-  right: 0;
+  /* right: 0; */
   top: 0;
   width: 100vw;
   height: 192px;
   z-index: -1;
-  margin-right: calc(var(--b-padding) * -1);
+  /* margin-right: calc(var(--b-padding) * -1); */
 }
 
 .case_info {
@@ -92,6 +93,7 @@
   gap: 21px;
   height: 152px;
   width: 100%;
+  max-width: 1392px;
   padding: 0 77px;
   background-color: rgba(0, 0, 0, 0.9);
 }

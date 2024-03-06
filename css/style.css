@@ -156,3 +156,38 @@
   font-size: 52px;
   text-transform: uppercase;
 }
+
+.footer {
+  /* display: flex; */
+  margin-top: 120px;
+  position: relative;
+  /* background-image: url('../img/images/bgFooter.png');
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0;
+  z-index: -1;
+  margin-left: calc(var(--b-padding) * -1) */
+}
+
+.footer_bg {
+  right: 0;
+  z-index: -1;
+  margin-left: calc(var(--b-padding) * -1);
+}
+
+.footer_logo {
+  position: absolute;
+  top: 0;
+  padding: 32px;
+  /* position: absolute; */
+  width: 192px;
+  height: auto;
+  background-color: rgb(0, 0, 0, .8);
+}
+
+.footer_bg_bt {
+  position: absolute;
+  bottom: 0;
+}
