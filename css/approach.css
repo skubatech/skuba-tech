@@ -6,6 +6,10 @@
   padding-bottom: 124px;
 }
 
+.hidden_step {
+  display: none;
+}
+
 .about_work_content {
   display: flex;
   flex-direction: column;
@@ -48,7 +52,6 @@
   margin-left: calc(var(--b-padding) * -1);
   margin-right: calc(var(--b-padding) * -1);
   position: relative;
-  /* margin-right: 17px; */
 }
 
 .approach_steps::before {
@@ -67,20 +70,21 @@
   text-transform: uppercase;
   max-height: 68px;
   z-index: 2;
+  cursor: pointer;
 }
 
-#activeStep {
+.activeStep {
   overflow: hidden;
   position: relative;
   z-index: 2;
 }
 
-#activeStep span {
+.activeStep span {
   background: rgba(0,0,0,0.8);
-  padding: 20px 44px;;
+  padding: 8px 44px;;
 }
 
-#activeStep::before {
+.activeStep::before {
   content: '';
   background: url("../img/images/bgbg.png");
   position: absolute;

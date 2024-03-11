@@ -58,5 +58,8 @@ h6 {
 body {
   background: var(--main-bg);
   padding: 0 var(--b-padding);
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
   overflow-x: hidden;
 }

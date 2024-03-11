@@ -1,341 +1,702 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>skuba.tech</title>
+    <link rel="stylesheet" href="css/constants.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/approach.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/wave.css" />
+    <meta name="description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <link rel="icon" href="img/icons/icon.svg" sizes="any" />
+    <link rel="icon" href="img/icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="img/icons/icon.svg" />
+    <meta name="theme-color" content="#fafafa" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.38.4/css-doodle.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>skuba.tech</title>
-  <link rel="stylesheet" href="css/constants.css">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/approach.css">
-  <link rel="stylesheet" href="css/projects.css">
-  <link rel="stylesheet" href="css/wave.css">
-  <meta name="description" content="">
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <link rel="icon" href="img/icons/icon.svg" sizes="any">
-  <link rel="icon" href="img/icons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="img/icons/icon.svg">
-  <meta name="theme-color" content="#fafafa">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.38.4/css-doodle.min.js"></script>
-</head>
+  <body>
+    <header class="header">
+      <object
+        type="image/svg+xml"
+        data="./img/icons/icon.svg"
+        class="logo"
+      ></object>
+      <section class="title_wrapper">
+        <!--      <span class="sub_title">&#8288;&#8211;&#8288;&#8288;&#8288;Вместе с нами</span>-->
+        <h1 class="title">
+          <object
+            type="image/svg+xml"
+            data="./img/icons/head_t1.svg"
+            class="head_t1"
+          ></object>
+          <object
+            type="image/svg+xml"
+            data="./img/icons/head_t2.svg"
+            class="head_t1"
+          ></object>
+        </h1>
+      </section>
+    </header>
 
-<body>
-  <header class="header">
-    <object type="image/svg+xml" data="./img/icons/icon.svg" class="logo"></object>
-    <section class="title_wrapper">
-<!--      <span class="sub_title">&#8288;&#8211;&#8288;&#8288;&#8288;Вместе с нами</span>-->
-      <h1 class="title">
-        <object type="image/svg+xml" data="./img/icons/head_t1.svg" class="head_t1"></object>
-        <object type="image/svg+xml" data="./img/icons/head_t2.svg" class="head_t1"></object>
-      </h1>
+    <nav>
+      <ul class="head_nav">
+        <li class="head_link">
+          <a href="#" aria-label="Перейти к блоку услуги">Услуги</a>
+        </li>
+        <li class="head_link">
+          <a href="#" aria-label="Перейти к блоку подход" id="approachLink"
+            >Подход</a
+          >
+        </li>
+        <li class="head_link">
+          <a href="#" aria-label="Перейти к блоку кейсы">Кейсы</a>
+        </li>
+        <li class="head_link">
+          <a href="#" aria-label="Перейти к блоку проекты" id="projectsLink"
+            >Проекты</a
+          >
+        </li>
+        <li class="head_link" id="connect">
+          <a href="#" aria-label="Перейти к блоку связаться" id="contactsLink">Связаться</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="head_des">
+      <span class="head_des_s1"></span>
+      <span class="head_des_s2"></span>
+      
+      <div class="head_des_items">
+        <div class="head_des_item">
+          <h3 class="head_des_item_title">IT-решения под ключ.</h3>
+          <span class="head_des_item_text">Более 10 лет экспертизы в построении сложных программных продуктов.</span>
+          <span class="head_des_items_s1"></span>
+          <span class="head_des_items_s2"></span>
+        </div>
+        
+        <div class="head_des_item_hidden">
+          <div class="head_des_item" id="hidden">
+            <h3 class="head_des_item_title">Авторский дизайн.</h3>
+            <span class="head_des_item_text">Возможность создать эстетический и уникальный дизайн для вашего бренда</span>  
+          </div>
+          <span class="head_des_s3"></span>
+          <span class="head_des_s4"></span>         
+        </div>
+      </div>
+    </div>
+
+    <section class="about">
+      <div class="about_title_wrapper" id="approach">
+        <div class="about_of_wrapper">
+          <div class="about_line"></div>
+          <span class="about_of"> Немного про </span>
+        </div>
+        <h2 class="about_title">Подход к работе</h2>
+      </div>
+
+      <div class="approach_steps">
+        <div class="approach_step activeStep"><span>1 этап</span></div>
+        <div class="approach_step"><span>2 этап</span></div>
+        <div class="approach_step"><span>3 этап</span></div>
+        <div class="approach_step"><span>4 этап</span></div>
+      </div>
+
+      <div class="about_work">
+        <div class="about_work_content">
+          <div class="about_of_wrapper">
+            <div class="about_line"></div>
+            <span class="about_of">Первое </span>
+          </div>
+          <span class="about_work_title">Аудит</span>
+          <div class="about_work_des">
+            <span class="about_work_text">Первое знакомство как первое свидание&nbsp;&mdash;
+              мы&nbsp;встретимся, выслушаем вашу историю и&nbsp;определим
+              варианты решения вашей профессиональной задачи. На&nbsp;этом этапе
+              вы&nbsp;получите бесплатную консультацию и&nbsp;увидите несколько
+              вариантов действий.</span
+            >
+            <span class="about_work_text"
+              >Наши профессиональные архитекторы и&nbsp;ведущие дизайнеры
+              проложат вам дорогу от&nbsp;неизвестности к&nbsp;готовому
+              IT-продукту.</span
+            >
+          </div>
+        </div>
+        <img src="./img/images/audit.png" alt="Этап аудита" />
+      </div>
+      <div class="about_work hidden_step">
+        <div class="about_work_content">
+          <div class="about_of_wrapper">
+            <div class="about_line"></div>
+            <span class="about_of">Второе</span>
+          </div>
+          <span class="about_work_title">Проектирование</span>
+          <div class="about_work_des">
+            <span class="about_work_text">На&nbsp;этом шаге вы&nbsp;уже хорошо знакомы с&nbsp;нашей технической командой и&nbsp;готовы плодотворно работать. Наша задача по&nbsp;вашему запросу создать техническое задание и&nbsp;спроектировать решение, которое будет приносить деньги вашему бизнесу.</span
+            >
+            <span class="about_work_text">На&nbsp;этом этапе вы&nbsp;точно будете знать о&nbsp;сроках.
+              Мы&nbsp;вместо сформируем ожидания.</span
+            >
+          </div>
+        </div>
+        <img src="./img/images/designing.png" alt="Этап проектирования" />
+      </div>
+      <div class="about_work hidden_step">
+        <div class="about_work_content">
+          <div class="about_of_wrapper">
+            <div class="about_line"></div>
+            <span class="about_of">Третье</span>
+          </div>
+          <span class="about_work_title">Разработка</span>
+          <div class="about_work_des">
+            <span class="about_work_text">Самый ответственный и&nbsp;продуктивный этап.
+              Мы&nbsp;все знаем какой проект должен быть на&nbsp;выходе. Мы&nbsp;знаем сколько это займет времени.</span
+            >
+            <span class="about_work_text">Наша команда разработает продукт с&nbsp;соблюдением всех дедпайнов. Мы&nbsp;адаптируем все процессы под вас для максимальной прозрачности.</span
+            >
+          </div>
+        </div>
+        <img src="./img/images/development.png" alt="Этап разработки" />
+      </div>
+      <div class="about_work hidden_step">
+        <div class="about_work_content">
+          <div class="about_of_wrapper">
+            <div class="about_line"></div>
+            <span class="about_of">Заключение</span>
+          </div>
+          <span class="about_work_title">Ввод в эксплуатацию</span>
+          <div class="about_work_des">
+            <span class="about_work_text">Проект готов, а&nbsp;ваши счастливые клиенты готовы начать им&nbsp;пользоваться. Мы&nbsp;даем продукту новую жизнь, отдаем его пользователям и&nbsp;следим как все идет.</span
+            >
+            <span class="about_work_text">С&nbsp;нашей стороны обеспечивается всесторонняя поддержка. А&nbsp;еще мы&nbsp;готовы улучшать. дополнять и&nbsp;растить ваше программное обеспечение.</span
+            >
+          </div>
+        </div>
+        <img src="./img/images/exploitation.png" alt="Этап Эксплуатации" />
+      </div>
     </section>
-  </header>
 
-  <nav>
-    <ul class="head_nav">
-      <li class="head_link">
-        <a href="#" aria-label="Перейти к блоку услуги">Услуги</a>
-      </li>
-      <li class="head_link">
-        <a href="#" aria-label="Перейти к блоку подход" id="approachLink">Подход</a>
-      </li>
-      <li class="head_link">
-        <a href="#" aria-label="Перейти к блоку кейсы">Кейсы</a>
-      </li>
-      <li class="head_link">
-        <a href="#" aria-label="Перейти к блоку проекты" id="projectsLink">Проекты</a>
-      </li>
-      <li class="head_link" id="connect">
-        <a href="#" aria-label="Перейти к блоку связаться">Связаться</a>
-      </li>
-    </ul>
-  </nav>
-
-  <section class="about">
-    <div class="about_title_wrapper" id="approach">
-      <div class="about_of_wrapper">
-        <div class="about_line"></div>
-        <span class="about_of">
-          Немного про
-        </span>
-      </div>
-      <h2 class="about_title">Подход к работе</h2>
-    </div>
-
-    <div class="approach_steps">
-      <div class="approach_step" id="activeStep"><span>1 этап</span></div>
-      <div class="approach_step"><span>2 этап</span></div>
-      <div class="approach_step"><span>3 этап</span></div>
-      <div class="approach_step"><span>4 этап</span></div>
-    </div>
-
-    <div class="about_work">
-      <div class="about_work_content">
+    <section class="about">
+      <div class="about_title_wrapper" id="projects">
         <div class="about_of_wrapper">
           <div class="about_line"></div>
-          <span class="about_of">
-            Первое
-          </span>
+          <span class="about_of"> Немного про </span>
         </div>
-        <span class="about_work_title">Аудит</span>
-        <div class="about_work_des">
-          <span class="about_work_text">Первое знакомство как первое свидание&nbsp;&mdash; мы&nbsp;встретимся, выслушаем вашу историю и&nbsp;определим варианты решения вашей профессиональной задачи. На&nbsp;этом этапе вы&nbsp;получите бесплатную консультацию и&nbsp;увидите несколько вариантов действий.</span>
-          <span class="about_work_text">Наши профессиональные архитекторы и&nbsp;ведущие дизайнеры проложат вам дорогу от&nbsp;неизвестности к&nbsp;готовому IT-продукту.</span>
-        </div>
+        <h2 class="about_title">Наши проекты</h2>
       </div>
-      <img src="./img/images/audit.png" alt="Этап аудита"/>
-    </div>
-  </section>
 
-  <section class="about">
-    <div class="about_title_wrapper" id="projects">
-      <div class="about_of_wrapper">
-        <div class="about_line"></div>
-        <span class="about_of">
-          Немного про
-        </span>
-      </div>
-      <h2 class="about_title">Наши проекты</h2>
-    </div>
-
-    <div class="about_case">
-      <article class="about_case_wrapper">
-        <div class="about_case_des">
-          <div class="about_of_wrapper">
-            <div class="about_line"></div>
-            <span class="about_of">
-              Мы Сделали
-            </span>
-          </div>
-          <h3 class="about_case_name">Сайт автоподбора KUT</h3>
-          <span class="about_case_text">
-            Сайт для крупного автоподбора. Авторский дизайн, расчет цены и&nbsp;тысячи довольных автолюбителей
-          </span>
-          <a href="#" class="about_case_link" aria-label="Перейти на сайт KUT">{ Смотреть }</a>
-        </div>
-        <div class="about_case_preview">
-          <img class="about_case_preview_back" src="./img/images/kutBack.png" alt="Задний фон блока проекта KUT"/>
-          <img class="about_case_preview_desktop" src="./img/images/kutDesktop.png" alt="Проект KUT на компьютере"/>
-          <img class="about_case_preview_phone" src="./img/images/iPhoneKut.png" alt="Проект KUT на телефоне"/>
-        </div>
-      </article>
-
-      <div class="case">
-        <img class="case_info_back" src="./img/images/kutBackInfo.png" alt="Задний фон блока информации проекта KUT" />
-        <div class="case_info">
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              01
-            </span>
-            <span class="case_info_item_text">
-              Онлайн калькулятор для цен
-            </span>
-          </div>
-          <div class="case_info_line"></div>
-            <div class="case_info_item">
-              <span class="case_info_item_num">
-                02
-              </span>
-              <span class="case_info_item_text">
-                Уникальный дизайн
-              </span>
-              </div>
-              <div class="case_info_line"></div>
-              <div class="case_info_item">
-                <span class="case_info_item_num">
-                  03
-                </span>
-                <span class="case_info_item_text">
-                  Адаптивный и быстрый веб-сайт
-                </span>
-              </div>
-              <div class="case_info_line"></div>
-              <div class="case_info_item">
-                <span class="case_info_item_num">
-                  04
-                </span>
-                <span class="case_info_item_text">
-                  Готовый продукт за 1 месяц
-                </span>
-              </div>
+      <div class="about_case">
+        <article class="about_case_wrapper">
+          <div class="about_case_des">
+            <div class="about_of_wrapper">
+              <div class="about_line"></div>
+              <span class="about_of"> Мы Сделали </span>
             </div>
+            <h3 class="about_case_name">Сайт автоподбора KUT</h3>
+            <span class="about_case_text">
+              Сайт для крупного автоподбора. Авторский дизайн, расчет цены
+              и&nbsp;тысячи довольных автолюбителей
+            </span>
+            <a href="#" class="about_case_link" aria-label="Перейти на сайт KUT"
+              >{ Смотреть }</a
+            >
+          </div>
+          <div class="about_case_preview">
+            <img
+              class="about_case_preview_back"
+              src="./img/images/kutBack.png"
+              alt="Задний фон блока проекта KUT"
+            />
+            <img
+              class="about_case_preview_desktop"
+              src="./img/images/kutDesktop.png"
+              alt="Проект KUT на компьютере"
+            />
+            <img
+              class="about_case_preview_phone"
+              src="./img/images/iPhoneKut.png"
+              alt="Проект KUT на телефоне"
+            />
+          </div>
+        </article>
+
+        <div class="case_info orange">
+          <span class="case_info_s1"></span>
+          <span class="case_info_s2"></span>
+          <span class="case_info_s3"></span>
+          <span class="case_info_s4"></span>
+          <div class="case_info_content">
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 01 </span>
+              <span class="case_info_item_text">
+                Онлайн калькулятор для цен
+              </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 02 </span>
+              <span class="case_info_item_text"> Уникальный дизайн </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 03 </span>
+              <span class="case_info_item_text">
+                Адаптивный и быстрый веб-сайт
+              </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 04 </span>
+              <span class="case_info_item_text">
+                Готовый продукт за 1 месяц
+              </span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="about_case">
-      <article class="about_case_wrapper">
-        <div class="about_case_des">
+      <div class="about_case">
+        <article class="about_case_wrapper">
+          <div class="about_case_des">
+            <div class="about_of_wrapper">
+              <div class="about_line"></div>
+              <span class="about_of"> Мы Сделали </span>
+            </div>
+            <h3 class="about_case_name">Студия автопортрета Pupil</h3>
+            <span class="about_case_text">
+              Полностью автоматизированная студия автопортрета. Теперь
+              записаться, пофотографироваться и&nbsp;получить свои снимки
+              на&nbsp;почту возможно самому без участия человека,
+              только&nbsp;вы, ваши друзья и&nbsp;никого больше.
+            </span>
+            <a
+              href="#"
+              class="about_case_link"
+              aria-label="Перейти на сайт Pupil"
+              >{ Смотреть }</a
+            >
+          </div>
+          <div class="about_case_preview">
+            <img
+              class="about_case_preview_back"
+              src="./img/images/pupilBack.png"
+              alt="Задний фон блока проекта Pupil"
+            />
+            <img
+              class="about_case_preview_desktop"
+              src="./img/images/pupilDesktop.png"
+              alt="Проект Pupil на компьютере"
+            />
+            <img
+              class="about_case_preview_phone"
+              src="./img/images/iPhonePupil.png"
+              alt="Проект Pupil на телефоне"
+            />
+          </div>
+        </article>
+
+        <div class="case_info pink">
+          <span class="case_info_s1"></span>
+          <span class="case_info_s2"></span>
+          <span class="case_info_s3"></span>
+          <span class="case_info_s4"></span>
+          <div class="case_info_content">
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 01 </span>
+              <span class="case_info_item_text"> Онлайн запись </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 02 </span>
+              <span class="case_info_item_text"> Сайт </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 03 </span>
+              <span class="case_info_item_text">
+                Полная автоматизация процессов
+              </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 04 </span>
+              <span class="case_info_item_text"> 5 ежедневных съемок </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about_case">
+        <article class="about_case_wrapper">
+          <div class="about_case_des">
+            <div class="about_of_wrapper">
+              <div class="about_line"></div>
+              <span class="about_of"> Мы Сделали </span>
+            </div>
+            <h3 class="about_case_name">ASK GROUP</h3>
+            <span class="about_case_text">
+              Сайт для крупной промышленной организации с&nbsp;дизайном под
+              ключ. Выполнен с&nbsp;применением технологий искуственного
+              интеллекта
+            </span>
+            <a href="#" class="about_case_link" aria-label="Перейти на сайт ASK"
+              >{ Смотреть }</a
+            >
+          </div>
+          <div class="about_case_preview">
+            <img
+              class="about_case_preview_back"
+              src="./img/images/askBack.png"
+              alt="Задний фон блока проекта ASK"
+            />
+            <img
+              class="about_case_preview_desktop"
+              src="./img/images/askDesktop.png"
+              alt="Проект ASK на компьютере"
+            />
+            <img
+              class="about_case_preview_phone"
+              src="./img/images/iPhoneAsk.png"
+              alt="Проект ASK на телефоне"
+            />
+          </div>
+        </article>
+
+        <div class="case_info blue">
+          <span class="case_info_s1"></span>
+          <span class="case_info_s2"></span>
+          <span class="case_info_s3"></span>
+          <span class="case_info_s4"></span>
+          <div class="case_info_content">
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 01 </span>
+              <span class="case_info_item_text"> Премиальный дизайн </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 02 </span>
+              <span class="case_info_item_text"> Адаптивная верстка </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 03 </span>
+              <span class="case_info_item_text"> Уникальный подход </span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 04 </span>
+              <span class="case_info_item_text">
+                Готовый продукт за 1 месяц
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about_case">
+        <article class="about_case_wrapper_tags">
+          <div class="about_case_tags">
+            <span class="green_tag">B2B</span>
+            <span>B2C</span>
+            <span>Design</span>
+            <span>Text</span>
+            <span>Интернет-магазины</span>
+            <span>ПО</span>
+          </div>
+          <div class="about_case_wrapper">
+            <div class="about_case_des">
+              <div class="about_of_wrapper">
+                <div class="about_line"></div>
+                <span class="about_of"> Мы Сделали </span>
+              </div>
+              <h3 class="about_case_name">Цифровой двойник эксгаустера агломашины</h3>
+              <span class="about_case_text">
+                Для компании Евраз был разработан цифровой двойник их&nbsp;сложного технического устройства. Разработка позволяет осуществлять контроль и&nbsp;мониторинг в&nbsp;реальном времени
+              </span>
+              <a href="#" class="about_case_link" aria-label="Перейти на сайт ASK"
+                >{ Смотреть }</a
+              >
+            </div>
+            <div class="about_case_preview">
+              <img
+                class="about_case_preview_back"
+                src="./img/images/askBack.png"
+                alt="Задний фон блока проекта Евраз"
+              />
+              <img
+                class="about_case_preview_desktop"
+                src="./img/images/twinDesktop.png"
+                alt="Проект Евраз на компьютере"
+              />
+              <img
+                class="about_case_preview_phone"
+                src="./img/images/iPhoneTwin.png"
+                alt="Проект Евраз на телефоне"
+              />
+            </div>
+          </div>
+        </article>
+
+        <div class="case_info blue">
+          <span class="case_info_s1"></span>
+          <span class="case_info_s2"></span>
+          <span class="case_info_s3"></span>
+          <span class="case_info_s4"></span>
+          <div class="case_info_content">
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 01 </span>
+              <span class="case_info_item_text">Разработка под ключ</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num">02</span>
+              <span class="case_info_item_text">Обработка в реальном времени</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num">03</span>
+              <span class="case_info_item_text">Управление промышленностью</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num">04</span>
+              <span class="case_info_item_text">
+                Высокая доступность системы
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about_case">
+        <article class="about_case_wrapper_tags">
+          <div class="about_case_tags">
+            <span class="orange_tag">B2B</span>
+            <span>B2C</span>
+            <span>Design</span>
+            <span>Text</span>
+            <span>Интернет-магазины</span>
+            <span>ПО</span>
+          </div>
+          <div class="about_case_wrapper">
+            <div class="about_case_des">
+              <div class="about_of_wrapper">
+                <div class="about_line"></div>
+                <span class="about_of"> Мы Сделали </span>
+              </div>
+              <h3 class="about_case_name">ВТБ</h3>
+              <span class="about_case_text">
+                Для компании ВТБ разработан прототип системы электронных очередей. Разработка включает мобильное приложение с&nbsp;авторским дизайном, полностью автоматизированую систему с&nbsp;применением&nbsp;ИИ и&nbsp;абсолютно-уникальный концепт-арт игры с&nbsp;3D-графикой
+              </span>
+              <a href="#" class="about_case_link" aria-label="Перейти на сайт ASK"
+                >{ Смотреть }</a
+              >
+            </div>
+            <div class="about_case_preview">
+              <img
+                class="about_case_preview_back"
+                src="./img/images/kutBack.png"
+                alt="Задний фон блока проекта ВТБ"
+              />
+              <img
+                class="about_case_preview_desktop"
+                src="./img/images/vtbDesktop.png"
+                alt="Проект ВТБ на компьютере"
+              />
+              <img
+                class="about_case_preview_phone"
+                src="./img/images/iPhoneVtb.png"
+                alt="Проект ВТБ на телефоне"
+              />
+            </div>
+          </div>
+        </article>
+
+        <div class="case_info orange">
+          <span class="case_info_s1"></span>
+          <span class="case_info_s2"></span>
+          <span class="case_info_s3"></span>
+          <span class="case_info_s4"></span>
+          <div class="case_info_content">
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 01 </span>
+              <span class="case_info_item_text">ПО под ключ</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 02 </span>
+              <span class="case_info_item_text">Искуственный интеллект</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 03 </span>
+              <span class="case_info_item_text">Мобильное приложение</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 04 </span>
+              <span class="case_info_item_text">3D графика</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about_case">
+        <article class="about_case_wrapper_tags">
+          <div class="about_case_tags">
+            <span class="purple_tag">B2B</span>
+            <span>B2C</span>
+            <span>Design</span>
+            <span>Text</span>
+            <span>Интернет-магазины</span>
+            <span>ПО</span>
+          </div>
+          <div class="about_case_wrapper">
+            <div class="about_case_des">
+              <div class="about_of_wrapper">
+                <div class="about_line"></div>
+                <span class="about_of"> Мы Сделали </span>
+              </div>
+              <h3 class="about_case_name">Ingenix group</h3>
+              <span class="about_case_text">
+                Полностью разработанное с&nbsp;нуля ПТ- решение для контроллера аппаратов печати и&nbsp;маркератор. Программное обеспечение включает в&nbsp;себя серверную часть на&nbsp;Python и&nbsp;современный фронтенд на&nbsp;Angular
+              </span>
+              <a href="#" class="about_case_link" aria-label="Перейти на сайт ASK"
+                >{ Смотреть }</a
+              >
+            </div>
+            <div class="about_case_preview">
+              <img
+                class="about_case_preview_back"
+                src="./img/images/purpleBack.png"
+                alt="Задний фон блока проекта Ingenix"
+              />
+              <img
+                class="about_case_preview_desktop"
+                src="./img/images/ingenixDesktop.png"
+                alt="Проект Ingenix на компьютере"
+              />
+            </div>
+          </div>
+        </article>
+
+        <div class="case_info purple">
+          <span class="case_info_s1"></span>
+          <span class="case_info_s2"></span>
+          <span class="case_info_s3"></span>
+          <span class="case_info_s4"></span>
+          <div class="case_info_content">
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 01 </span>
+              <span class="case_info_item_text">ПО под ключ</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num">02</span>
+              <span class="case_info_item_text">Адаптация под запросы клиента</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 03 </span>
+              <span class="case_info_item_text">Полный цикл разработки</span>
+            </div>
+            <div class="case_info_line"></div>
+            <div class="case_info_item">
+              <span class="case_info_item_num"> 04 </span>
+              <span class="case_info_item_text">
+                Эксплуатация и поддержка
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+      <div class="footer_des">
+        <object type="image/svg+xml" data="./img/icons/icon.svg" class="footer_logo"></object>
+        <div class="footer_info">
           <div class="about_of_wrapper">
             <div class="about_line"></div>
             <span class="about_of">
               Мы Сделали
             </span>
           </div>
-          <h3 class="about_case_name">Студия автопортрета Pupil</h3>
-          <span class="about_case_text">
-            Полностью автоматизированная студия автопортрета. Теперь записаться, пофотографироваться и&nbsp;получить свои снимки на&nbsp;почту возможно самому без участия человека, только&nbsp;вы, ваши друзья и&nbsp;никого больше.
-          </span>
-          <a href="#" class="about_case_link" aria-label="Перейти на сайт Pupil">{ Смотреть }</a>
+          <h3 class="about_case_name">Давайте работать вместе.</h3>
+          <span class="footer_info_text">Больше 10 лет мы делаем сайты и it-решения на заказ. Качество - наше профессиональное кредо</span>
         </div>
-        <div class="about_case_preview">
-          <img class="about_case_preview_back" src="./img/images/pupilBack.png" alt="Задний фон блока проекта Pupil"/>
-            <img class="about_case_preview_desktop" src="./img/images/pupilDesktop.png" alt="Проект Pupil на компьютере"/>
-            <img class="about_case_preview_phone" src="./img/images/iPhonePupil.png" alt="Проект Pupil на телефоне"/>
-        </div>
-      </article>
-
-      <div class="case">
-        <img class="case_info_back" src="./img/images/pupilInfo.png" alt="Задний фон блока информации проекта Pupil"/>
-
-        <div class="case_info">
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              01
-            </span>
-            <span class="case_info_item_text">
-              Онлайн запись
-            </span>
-          </div>
-          <div class="case_info_line"></div>
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              02
-            </span>
-            <span class="case_info_item_text">
-              Сайт
-            </span>
-          </div>
-          <div class="case_info_line"></div>
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              03
-            </span>
-            <span class="case_info_item_text">
-              Полная автоматизация процессов
-            </span>
-          </div>
-          <div class="case_info_line"></div>
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              04
-            </span>
-            <span class="case_info_item_text">
-              5 ежедневных съемок
-            </span>
-          </div>
-        </div>
+        <div class="footer_d1"></div>
       </div>
-    </div>
-
-    <div class="about_case">
-      <article class="about_case_wrapper">
-        <div class="about_case_des">
-          <div class="about_of_wrapper">
-            <div class="about_line"></div>
-            <span class="about_of">
-              Мы Сделали
-            </span>
-          </div>
-          <h3 class="about_case_name">ASK GROUP</h3>
-          <span class="about_case_text">
-            Сайт для крупной промышленной организации с&nbsp;дизайном под ключ. Выполнен с&nbsp;применением технологий искуственного интеллекта
-          </span>
-          <a href="#" class="about_case_link" aria-label="Перейти на сайт ASK">{ Смотреть }</a>
-        </div>
-        <div class="about_case_preview">
-          <img class="about_case_preview_back" src="./img/images/askBack.png" alt="Задний фон блока проекта ASK"/>
-            <img class="about_case_preview_desktop" src="./img/images/askDesktop.png" alt="Проект ASK на компьютере"/>
-            <img class="about_case_preview_phone" src="./img/images/iPhoneAsk.png" alt="Проект ASK на телефоне"/>
-        </div>
-      </article>
-
-      <div class="case">
-        <img class="case_info_back" src="./img/images/askInfo.png" alt="Задний фон блока информации проекта ASK"/>
-        <div class="case_info">
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              01
-            </span>
-            <span class="case_info_item_text">
-              Премиальный дизайн
-            </span>
-          </div>
-          <div class="case_info_line"></div>
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              02
-            </span>
-            <span class="case_info_item_text">
-              Адаптивная верстка
-            </span>
-          </div>
-          <div class="case_info_line"></div>
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              03
-            </span>
-            <span class="case_info_item_text">
-              Уникальный подход
-            </span>
-          </div>
-          <div class="case_info_line"></div>
-          <div class="case_info_item">
-            <span class="case_info_item_num">
-              04
-            </span>
-            <span class="case_info_item_text">
-              Готовый продукт за 1 месяц
-            </span>
-          </div>
-        </div>
+      <span class="footer_s1"></span>
+      <span class="footer_s2"></span>
+      <span class="footer_s3"></span>
+      <span class="footer_s4"></span>
+      <div class="footer_links">
+        <a 
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label="Перейти на аккаунт Telegram"
+          class="footer_link"
+          href="https://web.telegram.org/k/"
+        >
+          Telegram
+        </a>
+        <span>/</span>
+        <a 
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label="Написать на эл.почту"
+          class="footer_link"
+          href="#"
+        >
+          Email
+        </a>
+        <span>/</span>
+        <a 
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label="Перейти на аккаунт Whatsapp"
+          class="footer_link"
+          href="https://web.whatsapp.com/"
+        >
+          Whatsapp
+        </a>
+        <span>/</span>
+        <a 
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label="Перейти на аккаунт VK"
+          class="footer_link"
+          href="https://vk.com/"
+        >
+          VK
+        </a>
       </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <img src="./img/images/bgFooter.png" alt="Задний фон футера сайта" class="footer_bg"/>
-    <div class="footer_des">
-      <object type="image/svg+xml" data="./img/icons/icon.svg" class="footer_logo"></object>
-      <div class="footer_info">
-        <div class="about_of_wrapper">
-          <div class="about_line"></div>
-          <span class="about_of">
-            Мы Сделали
-          </span>
-        </div>
-        <h3 class="about_case_name">Давайте работать вместе.</h3>
-        <span class="footer_info_text">Больше 10 лет мы делаем сайты и it-решения на заказ. Качество - наше профессиональное кредо</span>
+      <div class="footer_d2">
+        <span class="footer_s5"></span>
+        <span class="footer_s6"></span>
       </div>
-    </div>
-    <!-- <img src="./img/images/bgFooterImg.png" alt="Задний фон футера" class="footer_bg_bt"/> -->
   </footer>
 
+    <!--  <section class="wide-content">-->
+    <!--    <span class="l-top bg"></span>-->
+    <!--    <span class="l-bottom bg"></span>-->
+    <!--    <span class="r-top bg"></span>-->
+    <!--    <span class="r-bottom bg"></span>-->
+    <!--  </section>-->
 
+    <!--  <section class="bottom">-->
+    <!--    <span class="cont"></span>-->
+    <!--  </section>-->
 
-
-
-
-
-
-
-<!--  <section class="wide-content">-->
-<!--    <span class="l-top bg"></span>-->
-<!--    <span class="l-bottom bg"></span>-->
-<!--    <span class="r-top bg"></span>-->
-<!--    <span class="r-bottom bg"></span>-->
-<!--  </section>-->
-
-
-<!--  <section class="bottom">-->
-<!--    <span class="cont"></span>-->
-<!--  </section>-->
-
-  <script src="js/app.js"></script>
-</body>
-
+    <script src="js/app.js"></script>
+  </body>
 </html>
