@@ -119,6 +119,7 @@
 .head_link {
   padding: 12px 32px;
   list-style-type: none;
+  cursor: pointer;
 }
 
 .head_link a {
