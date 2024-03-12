@@ -2,12 +2,14 @@ const approachEL = document.getElementById("approach");
 const approachLink = document.getElementById("approachLink");
 const projectsEL = document.getElementById("projects");
 const projectsLink = document.getElementById("projectsLink");
-const contactsEL = document.getElementById("contacts");
 const contactsLink = document.getElementById("contactsLink");
 
 const approachStep = document.querySelectorAll('.approach_step');
 
 const aboutWork = document.querySelectorAll('.about_work');
+
+const modal = document.querySelector(".modalWrapper");
+const modalCross = document.querySelector(".modal_close");
 
 function scrollTo(el) {
   el.scrollIntoView({ block: "start", behavior: "smooth" });
@@ -31,9 +33,22 @@ function changeStep(event, index) {
   changeVisibleAboutWork(index);
 }
 
+function openModal() {
+  modal.classList.remove('disable');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  modal.classList.add('disable');
+  document.body.style.overflow = "unset";
+  document.body.style.overflowX = "hidden";
+}
+
 approachLink.addEventListener("click", () => scrollTo(approachEL));
 projectsLink.addEventListener("click", () => scrollTo(projectsEL));
-contactsLink.addEventListener("click", () => scrollTo(contactsEL));
+contactsLink.addEventListener("click", () => openModal());
+
+modalCross.addEventListener("click", () => closeModal());
 
 approachStep.forEach((item, i) => { 
   item.addEventListener("click", (event) => changeStep(event, i))

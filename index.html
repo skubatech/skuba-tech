@@ -70,6 +70,63 @@
       </ul>
     </nav>
 
+    <div class="modalWrapper disable">
+      <div class="background"></div>
+      <div class="centered">
+          <div class="modal">
+            <button class="modal_close" aria-label="Закрыть модальное окно">
+              <img src="./img/icons/cross.svg" alt="Иконка крестика"/>
+            </button>
+            <div class="modal_social">
+              <div class="modal_links">
+                <a 
+                  href="https://vk.com/"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label="Перейти на аккаунт VK"
+                  class="modal_link"
+                >
+                  <img src="./img/icons/vk.svg" alt="Иконка VK"/>
+                </a>
+                <a 
+                  href="https://vk.com/"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label="Перейти на аккаунт WhatsApp"
+                  class="modal_link"
+                >
+                  <img src="./img/icons/whatsapp.svg" alt="Иконка WhatsApp"/>
+                </a>
+                <a 
+                  href="https://vk.com/"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label="Перейти на аккаунт Telegram"
+                  class="modal_link"
+                >
+                  <img src="./img/icons/telegram.svg" alt="Иконка Telegram"/>
+                </a>
+                <a 
+                  href="mailto:someone@example.com"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label="Написать на эл.почту"
+                  class="modal_link"
+                >
+                  <img src="./img/icons/gmail.svg" alt="Иконка Gmail"/>
+                </a>
+              </div>
+              <span class="modal_social_text">Оставьте заявку и мы перезвоним вам в течении часа</span>
+            </div>
+            <form class="form">
+              <input class="form_input" placeholder="Имя" type="text" />
+              <input class="form_input" placeholder="Телефон" type="tel" />
+              <button action="submit" class="form_btn">Отправить</button>
+            </form>
+          </div>
+      </div>
+  </div>
+
     <div class="head_des">
       <span class="head_des_s1"></span>
       <span class="head_des_s2"></span>
@@ -620,7 +677,7 @@
       </div>
     </section>
 
-    <footer class="footer" id="contacts">
+    <footer class="footer">
       <div class="footer_des">
         <object type="image/svg+xml" data="./img/icons/icon.svg" class="footer_logo"></object>
         <div class="footer_info">
@@ -655,7 +712,7 @@
           rel='noopener noreferrer'
           aria-label="Написать на эл.почту"
           class="footer_link"
-          href="#"
+          href="mailto:someone@example.com"
         >
           Email
         </a>
@@ -673,9 +730,9 @@
         <a 
           target='_blank'
           rel='noopener noreferrer'
-          aria-label="Перейти на аккаунт VK"
+          aria-label="Написать на эл.почту"
           class="footer_link"
-          href="https://vk.com/"
+          href="mailto:someone@example.com"
         >
           VK
         </a>

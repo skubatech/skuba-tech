@@ -132,6 +132,8 @@
 
 #connect {
   background-image: url('../img/images/connectImg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .head_des {
@@ -421,4 +423,130 @@
   text-decoration: none;
   text-transform: uppercase;
   color: var(--main-white9);
+}
+
+.modalWrapper {
+  position: absolute;
+}
+
+.disable {
+  display: none;
+}
+
+.background {
+  background-color: rgba(21, 14, 25, 0.3);
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 102;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 105;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 34px;
+  backdrop-filter: blur(50px);
+  max-width: 430px;
+  max-height: 497px;
+}
+
+.modal_close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.modal_social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.modal_links {
+  display: flex;
+  gap: 24px;
+}
+
+.modal_link {
+  transition: all .3s;
+}
+
+.modal_link:hover {
+  scale: 1.1;
+  transition: all .3s;
+}
+
+.modal_social_text {
+  font-family: 'Nairi';
+  font-size: 28px;
+  color: var(--main-white9);
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.form_input {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  font-family: 'Mono Regular';
+  width: 280px;
+  padding: 12px 16px;
+  background: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  outline: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.form_input::placeholder {
+  font-family: 'Mono Regular';
+  font-size: 20px;
+  text-align: center;
+}
+
+.form_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-image: url('../img/images/connectImg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12px 24px;
+  font-family: 'Mono Medium';
+  font-size: 24px;
+  color: var(--main-white9);
+  cursor: pointer;
+  margin-top: 20px;
+  width: 252px;
+  height: 48px;
 }
