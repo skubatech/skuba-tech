@@ -111,6 +111,14 @@
   width: 200px;
 }
 
+.head_t1 {
+  width: 50%;
+}
+
+.head_t2 {
+  width: 47%;
+}
+
 .head_nav {
   display: flex;
   gap: 9px;
@@ -559,4 +567,71 @@
   margin-top: 20px;
   width: 252px;
   height: 48px;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .title {
+    gap: 24px;
+  }
+
+  .head_link {
+    padding: 10px 30px;
+  }
+
+  .head_link a {
+    font-size: 26px;
+  }
+
+  .head_des {
+    margin-left: calc(var(--b-padding-m) * -1);
+    margin-right: calc(var(--b-padding-m) * -1);
+  }
+
+  .head_des_item_hidden {
+    max-width: 270px;
+  }
+
+  .head_des_s1 {
+    width: var(--b-padding-m);
+  }
+  
+  .head_des_s2 {
+    width: var(--b-padding-m);
+  }
+  
+  .head_des_s3 {
+    position: absolute;
+    right: calc(-1*(var(--b-padding)));
+    top: -20px;
+    height: 20px;
+    background-color: var(--main-bg);
+    width: var(--b-padding);
+  }
+  
+  .head_des_s4 {
+    right: calc(-1*(var(--b-padding-m)));
+    width: var(--b-padding-m);
+  }
+  
+  .head_des_items {
+    margin-right: var(--b-padding-m);
+    margin-left: var(--b-padding-m);
+  }
+
+  .head_des_item {
+    min-width: 526px;
+  }
+  .head_des_item_title {
+    font-size: 28px;
+  }
+
+  .head_des_item_text {
+    font-size: 24px;
+  }
+  
+  .about_title {
+    font-size: 48px;
+  }
+
+
 }

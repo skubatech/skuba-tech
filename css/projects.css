@@ -96,7 +96,7 @@
   min-width: 813px;
   max-width: 936px;
   margin-right: calc(var(--b-padding) * -1);
-  
+  height: 450px;
 }
 
 .orange_back {
@@ -197,10 +197,13 @@
 }
 
 .about_case_preview_phone {
+  width: 120px;
+  height: 252px;
   position: absolute;
-  left: 52px;
+  left: 42px;
   top: 162px;
   filter: drop-shadow(16px 17px 10px rgba(0, 0, 0, 0.4));
+  object-fit: contain;
 }
 
 .case_info {
@@ -303,3 +306,96 @@
   font-size: 24px;
   color: rgba(255, 255, 255);
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .about_case {
+    padding-bottom: 122px;
+  }
+
+  .about_case_wrapper {
+    gap: 40px;
+  }
+
+  .about_case_name {
+    font-size: 48px;
+  } 
+
+  .about_case_text {
+    font-size: 26px;
+    margin-top: 21px;
+    margin-bottom: 28px;
+    max-width: 639px;
+  }
+
+  .about_case_link {
+    font-size: 28px;
+  } 
+
+  .about_case_preview {
+    min-width: 551px;
+    max-width: 736px;
+    margin-right: calc(var(--b-padding-m) * -1);
+    height: 369px;
+  }
+
+  .about_case_preview_img {
+    height: 329px;
+    max-width: 441px;
+  }
+
+  .about_case_preview_desktop {
+    height: 329px;
+    width: 440px;
+  }
+  .about_case_preview_phone {
+    width: 90px;
+    height: 222px;
+    top: 125px;
+  }
+
+  .about_case_preview_d1 {
+    right: calc(var(--b-padding-m)* -1);
+    height: 123px;
+    width: var(--b-padding-m);
+  }
+
+  .about_case_preview_d2 {
+    right: calc(var(--b-padding-m)* -1);
+    height: 105px;
+    width: var(--b-padding-m);
+  }
+
+  .case_info {
+    margin-left: calc(var(--b-padding-m)* -1);
+    margin-right: calc(var(--b-padding-m)* -1);
+    margin-top: 89px;
+  }
+
+  .case_info_content {
+    gap: 18px;
+    height: 152px;
+    padding: 0 40px;
+    width: calc(100% - 2*(var(--b-padding-m)));
+  }
+
+  .case_info_s1, .case_info_s2, .case_info_s3, .case_info_s4 {
+    width: var(--b-padding-m);
+  }
+  
+  .case_info_item_num {
+    font-size: 32px;
+  }
+
+  .case_info_item_text {
+    font-size: 21px;
+  }
+
+  .about_case_tags {
+    font-size: 22px;
+  }
+
+  .about_case_tags span {
+    padding: 10px 22px;
+  }
+}
+

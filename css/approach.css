@@ -15,6 +15,11 @@
   flex-direction: column;
 }
 
+.about_work_img {
+  width: 590px;
+  height: 590px;
+}
+
 .about_work_title {
   font-family: "Mono Medium";
   font-size: 48px;
@@ -93,4 +98,50 @@
   width: 100vw;
   height: 92px;
   z-index: -2;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .approach_steps {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 16px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin-left: calc(var(--b-padding-m)* -1);
+    margin-right: calc(var(--b-padding-m)* -1);
+    position: relative;
+  }
+  .approach_step {
+    font-size: 24px;
+  }
+  .activeStep span {
+    padding: 8px 34px;
+  }
+
+  .about_work {
+    margin-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .about_work_des {
+    gap: 24px;
+  }
+
+  .about_work_img {
+    width: 390px;
+    height: 390px;
+  }
+
+  .about_work_title {
+    font-size: 44px;
+  }
+
+  .about_work_text {
+    font-size: 26px;
+  }
+
+  .about_case_name {
+    font-size: 48px;
+  }
 }
