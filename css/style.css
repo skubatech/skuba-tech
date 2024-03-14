@@ -116,7 +116,7 @@
 }
 
 .head_t2 {
-  width: 47%;
+  width: 45%;
 }
 
 .head_nav {
@@ -428,8 +428,9 @@
 .footer_links {
   position: relative;
   display: flex;
+  flex-direction: column;
   padding-left: calc(var(--b-padding) + 240px);
-  gap: 30px;
+  
   margin-top: 56px;
   font-family: 'Mono Regular';
   font-size: 24px;
@@ -437,10 +438,27 @@
   z-index: 4;
 }
 
+.footer_links_container {
+  display: flex;
+  gap: 30px;
+}
+
 .footer_link {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--main-white9);
+}
+
+.footer_s_r1 {
+  display: none;
+}
+
+.footer_s_r2 {
+  display: none;
+}
+
+.footer_links_text {
+  display: none;
 }
 
 .modalWrapper {
@@ -633,5 +651,220 @@
     font-size: 48px;
   }
 
+  .footer {
+    margin-left: calc(var(--b-padding-m) * -1);
+    margin-right: calc(var(--b-padding-m) * -1);
+  }
 
+  .footer_logo {
+    width: 177px;
+    height: 177px;
+    padding: 24px;
+  }
+
+  .footer_des {
+    padding-left: var(--b-padding-m);
+    padding-right: var(--b-padding-m);
+    gap: 32px;
+  }
+
+  .footer_info {
+    padding: 30px 32px;
+    width: 100%;
+    height: 177px;
+  }
+
+  .footer_info_text {
+    display: none;
+  }
+
+  .footer_s1 {
+    width: var(--b-padding-m);
+  }
+
+  .footer_s2 {
+    width: var(--b-padding-m);
+    top: 197px;
+  }
+
+  .footer_s3 {
+    width: 32px;
+    top: 197px;
+    left: calc(var(--b-padding-m) + 177px);
+  }
+
+  .footer_s4 {
+    width: 32px;
+    left: calc(var(--b-padding-m) + 177px);
+  }
+
+  .footer_s_r1 {
+    display: block;
+    position: absolute;
+    width: var(--b-padding-m);
+    right: 0;
+    background-color: var(--main-bg);
+    height: 20px;
+  }
+
+  .footer_s_r2 {
+    display: block;
+    position: absolute;
+    width: var(--b-padding-m);
+    right: 0;
+    background-color: var(--main-bg);
+    height: 20px;
+    top: 0;
+  }
+  
+  .footer_d1 {
+    display: none;
+  }
+
+  .footer_d2 {
+    height: calc(100% - 217px);
+    width: 100%;
+  }
+
+  .footer_s5 {
+    display: none;
+  }
+
+  .footer_s6 {
+    display: none;
+  }
+
+  .footer_links {
+    padding-left: var(--b-padding-m);
+    gap: 44px;
+  }
+
+  .footer_links_text {
+    display: block;
+    font-family: 'Nairi';
+    font-size: 24px;
+    max-width: 553px;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .head_link {
+    padding: 12px 24px;
+  }
+
+  .head_link a {
+    font-size: 20px;
+  }
+
+  .head_des_item_hidden {
+    display: none;
+  }
+
+  /* .about_of_wrapper {
+    display: none;
+  } */
+
+  .about_of {
+    font-size: 20px;
+  }
+
+  .about_title {
+    font-size: 42px;
+  }
+
+  .footer {
+    margin-left: calc(var(--b-padding-s) * -1);
+    margin-right: calc(var(--b-padding-s) * -1);
+  }
+
+  .footer_logo {
+    width: 147px;
+    height: 147px;
+    padding: 24px;
+  }
+
+  .footer_des {
+    padding-left: var(--b-padding-s);
+    padding-right: var(--b-padding-s);
+    gap: 32px;
+  }
+
+  .footer_info {
+    padding: 30px 32px;
+    width: 100%;
+    /* max-width: 508px; */
+    height: 147px;
+  }
+
+  .footer_info_text {
+    display: none;
+  }
+
+  .footer_s1 {
+    width: var(--b-padding-s);
+  }
+
+  .footer_s2 {
+    width: var(--b-padding-s);
+    top: 167px;
+  }
+
+  .footer_s3 {
+    width: 32px;
+    top: 167px;
+    left: calc(var(--b-padding-s) + 147px);
+  }
+
+  .footer_s4 {
+    width: 32px;
+    left: calc(var(--b-padding-s) + 147px);
+  }
+
+  .footer_s_r1 {
+    display: block;
+    position: absolute;
+    width: var(--b-padding-s);
+    right: 0;
+    background-color: var(--main-bg);
+    height: 20px;
+  }
+
+  .footer_s_r2 {
+    display: block;
+    position: absolute;
+    width: var(--b-padding-s);
+    right: 0;
+    background-color: var(--main-bg);
+    height: 20px;
+    top: 0;
+  }
+  
+  .footer_d1 {
+    display: none;
+  }
+
+  .footer_d2 {
+    height: calc(100% - 187px);
+    width: 100%;
+  }
+
+  .footer_s5 {
+    display: none;
+  }
+
+  .footer_s6 {
+    display: none;
+  }
+
+  .footer_links {
+    padding-left: var(--b-padding-s);
+    gap: 44px;
+  }
+
+  .footer_links_text {
+    display: block;
+    font-family: 'Nairi';
+    font-size: 24px;
+    max-width: 508px;
+  } 
 }

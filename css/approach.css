@@ -145,3 +145,36 @@
     font-size: 48px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .approach_step {
+    font-size: 20px;
+  }
+
+  .activeStep span {
+    padding: 12px 24px;
+  }
+
+  .activeStep::before {
+    left: calc(-47vw + var(--b-padding-s));
+  }
+
+  .about_work {
+    margin-top: 113px;
+    padding-bottom: 159px;
+  }
+
+  .about_work_title {
+    font-size: 36px;
+  }
+
+  .about_work_text {
+    font-size: 20px;
+    max-width: 327px;
+  }
+
+  .about_work_img {
+    width: 292px;
+    height: 292px;
+  } 
+}

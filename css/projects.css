@@ -182,6 +182,14 @@
   width: var(--b-padding);
 }
 
+.about_case_preview_d3 {
+  display: none;
+}
+
+.about_case_preview_d4 {
+  display: none;
+}
+
 .about_case_preview_back {
   position: relative;
   right: 0;
@@ -216,6 +224,10 @@
   margin-top: 109px;
   margin-left: calc(var(--b-padding) * -1);
   margin-right: calc(var(--b-padding) * -1);
+}
+
+.case_info_hidden {
+  display: none;
 }
 
 .orange {
@@ -283,8 +295,8 @@
 
 .case_info_line {
   background-color: rgba(255, 255, 255, 0.7);
-  width: 2px;
   height: 40%;
+  min-width: 2px;
 }
 
 .case_info_item {
@@ -318,6 +330,7 @@
 
   .about_case_name {
     font-size: 48px;
+    line-height: 48px;
   } 
 
   .about_case_text {
@@ -396,6 +409,153 @@
 
   .about_case_tags span {
     padding: 10px 22px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about {
+    padding-top: 28px;
+  }
+
+  .about_case_wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 27px;
+    gap: 31px;
+  }
+
+  .about_case_preview {
+    display: flex;
+    justify-content: center;
+    margin-right: calc(var(--b-padding-m) * -1);
+    margin-left: calc(var(--b-padding-m) * -1);
+    background-size: cover;
+    min-width: 100vw;
+    max-width: 100%;
+    height: 370px;
+  }
+
+  .about_case_preview_img {
+    max-width: 548px;
+    height: 370px;
+    box-sizing: border-box;
+  }
+
+  .about_case_preview_desktop {
+    height: 329px;
+  }
+
+  .about_case_preview_phone {
+    width: 92px;
+    height: 192px;
+    top: 143px;
+  }
+
+  .about_case_preview_d1 {
+    width: 50%;
+    height: 30%;
+    right: -50%;
+  }
+
+  .about_case_preview_d2 {
+    width: 50%;
+    height: 30%;
+    right: -50%;
+  }
+
+  .about_case_preview_d3 {
+    display: block;
+    position: absolute;
+    left: -50%;
+    top: 0;
+    height: 30%;
+    background-color: var(--main-bg);
+    width: 50%;
+  }
+
+  .about_case_preview_d4 {
+    display: block;
+    position: absolute;
+    left: -50%;
+    bottom: 0;
+    height: 30%;
+    background-color: var(--main-bg);
+    width: 50%;
+  }
+
+  .about_case_name {
+    font-size: 36px;
+    line-height: 32px;
+  }
+
+  .about_case_text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about_case_des {
+    max-width: 564px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about_case_link {
+    font-size: 24px;
+  }
+
+  .about_case_tags {
+    display: none;
+  }
+
+  .case_info_hidden {
+    display: block;
+    overflow: hidden;
+    width: calc(100vw - 2*var(--b-padding-s));
+    margin-left: calc(var(--b-padding-s) * -1);
+    margin-right: calc(var(--b-padding-s) * -1);
+  }
+
+  .case_info {
+    height: 165px;
+    margin-top: 103px;
+    margin-left: calc(var(--b-padding-s) * -1);
+    margin-right: calc(var(--b-padding-s) * -1);
+  }
+
+  .case_info_content {
+    overflow: auto;
+    height: 125px;
+    /* width: 1160px; */
+    width: calc(100% - 2*(var(--b-padding-s)));
+    padding: 0 24px;
+  }
+
+  .case_info_item {
+    min-width: 247px;
+  }
+
+  .case_info_item_num {
+    font-size: 28px;
+  }
+
+  .case_info_item_text {
+    font-size: 20px;
+  }
+
+  .case_info_s1 {
+    width: var(--b-padding-s);
+  }
+
+  .case_info_s2 {
+    width: var(--b-padding-s);
+  }
+
+  .case_info_s3 {
+    width: var(--b-padding-s);
+  }
+
+  .case_info_s4 {
+    width: var(--b-padding-s);
   }
 }
 
