@@ -521,7 +521,7 @@
 
   .case_info_hidden {
     display: block;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     width: calc(100% - 2*var(--b-padding-s));
     /* margin-left: calc(var(--b-padding-s) * -1);
     margin-right: calc(var(--b-padding-s) * -1); */
@@ -537,10 +537,10 @@
   .case_info_content {
     /* overflow: auto; */
     height: 125px;
-    width: 1160px;
+    width: calc(100vw - 2*(var(--b-padding-s)));
     margin-left: 0;
     margin-right: 0;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     /* width: calc(100% - 2*(var(--b-padding-s))); */
     padding: 0 24px;
   }
@@ -699,7 +699,6 @@
 
   .case_info_hidden {
     display: block;
-    overflow: hidden;
     width: calc(100% - 2 * var(--b-padding-xs));
     /* margin-left: calc(var(--b-padding-xs) * -1);
     margin-right: calc(var(--b-padding-xs) * -1); */
