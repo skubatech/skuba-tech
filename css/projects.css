@@ -220,14 +220,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: -1;
   margin-top: 109px;
   margin-left: calc(var(--b-padding) * -1);
   margin-right: calc(var(--b-padding) * -1);
 }
 
 .case_info_hidden {
-  display: none;
+  /* display: block; */
+  width: 100%;
 }
 
 .orange {
@@ -291,6 +291,8 @@
   padding: 0 77px;
   width: calc(100% - 2*(var(--b-padding)));
   background-color: rgba(0, 0, 0, 0.9);
+  margin-right: var(--b-padding);
+  margin-left: var(--b-padding);
 }
 
 .case_info_line {
@@ -389,6 +391,8 @@
     height: 152px;
     padding: 0 40px;
     width: calc(100% - 2*(var(--b-padding-m)));
+    margin-left: var(--b-padding-m);
+    margin-right: var(--b-padding-m);
   }
 
   .case_info_s1, .case_info_s2, .case_info_s3, .case_info_s4 {
@@ -517,10 +521,10 @@
 
   .case_info_hidden {
     display: block;
-    overflow: hidden;
-    width: calc(100vw - 2*var(--b-padding-s));
-    margin-left: calc(var(--b-padding-s) * -1);
-    margin-right: calc(var(--b-padding-s) * -1);
+    overflow-x: scroll;
+    width: calc(100% - 2*var(--b-padding-s));
+    /* margin-left: calc(var(--b-padding-s) * -1);
+    margin-right: calc(var(--b-padding-s) * -1); */
   }
 
   .case_info {
@@ -531,10 +535,13 @@
   }
 
   .case_info_content {
-    overflow: auto;
+    /* overflow: auto; */
     height: 125px;
-    /* width: 1160px; */
-    width: calc(100% - 2*(var(--b-padding-s)));
+    width: 1160px;
+    margin-left: 0;
+    margin-right: 0;
+    /* overflow-y: scroll; */
+    /* width: calc(100% - 2*(var(--b-padding-s))); */
     padding: 0 24px;
   }
 
@@ -693,9 +700,9 @@
   .case_info_hidden {
     display: block;
     overflow: hidden;
-    width: calc(100vw - 2*var(--b-padding-xs));
-    margin-left: calc(var(--b-padding-xs) * -1);
-    margin-right: calc(var(--b-padding-xs) * -1);
+    width: calc(100% - 2 * var(--b-padding-xs));
+    /* margin-left: calc(var(--b-padding-xs) * -1);
+    margin-right: calc(var(--b-padding-xs) * -1); */
   }
 
   .case_info {
@@ -709,7 +716,9 @@
     overflow-y: scroll;
     height: 79px;
     /* width: 1160px; */
-    width: calc(100% - 2*(var(--b-padding-xs)));
+    width: calc(100vw - 2*(var(--b-padding-xs)));
+    margin-right: 0;
+    margin-left: 0;
     padding: 0 14px;
   }
 
