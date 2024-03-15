@@ -633,35 +633,35 @@
   }
 
   .about_case_preview_d1 {
-    width: 65%;
+    width: calc(calc(100vw - 308px) / 2);
     height: 30%;
-    right: -65%;
+    right: calc(calc(100vw - 308px) / 2 * -1);
   }
 
   .about_case_preview_d2 {
-    width: 65%;
+    width: calc(calc(100vw - 308px) / 2);
     height: 30%;
-    right: -65%;
+    right: calc(calc(100vw - 308px) / 2 * -1);
   }
 
   .about_case_preview_d3 {
     display: block;
     position: absolute;
-    left: -65%;
+    left: calc(calc(100vw - 308px) / 2 * -1);
     top: 0;
     height: 30%;
     background-color: var(--main-bg);
-    width: 65%;
+    width: calc(calc(100vw - 308px) / 2);
   }
 
   .about_case_preview_d4 {
     display: block;
     position: absolute;
-    left: -65%;
+    left: calc(calc(100vw - 308px) / 2 * -1);
     bottom: 0;
     height: 30%;
     background-color: var(--main-bg);
-    width: 65%;
+    width: calc(calc(100vw - 308px) / 2);
   }
 
   .about_case_name {

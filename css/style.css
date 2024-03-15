@@ -229,6 +229,7 @@
 }
 
 .head_des_items_s1 {
+  display: none;
   position: absolute;
   right: -48px;
   top: -20px;
@@ -238,6 +239,7 @@
 }
 
 .head_des_items_s2 {
+  display: none;
   position: absolute;
   right: -48px;
   bottom: -20px;
