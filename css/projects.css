@@ -550,6 +550,7 @@
   }
 
   .case_info_item_num {
+    padding-top: 20px;
     font-size: 28px;
   }
 
@@ -728,6 +729,7 @@
 
   .case_info_item_num {
     font-size: 20px;
+    padding-top: 18px;
   }
 
   .case_info_item_text {
