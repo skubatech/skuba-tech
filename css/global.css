@@ -75,3 +75,9 @@ body {
     padding: 0 var(--b-padding-s);
   }
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    padding: 0 var(--b-padding-xs);
+  }
+}

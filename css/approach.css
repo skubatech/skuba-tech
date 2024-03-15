@@ -178,3 +178,59 @@
     height: 292px;
   } 
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .approach_steps {
+    gap: 16px;
+    margin-left: calc(var(--b-padding-xs)* -1);
+    margin-right: calc(var(--b-padding-xs)* -1);
+  }
+
+  .approach_step {
+    font-size: 14px;
+    padding: 6px 6px 10px;
+    max-height: 46px;
+  }
+
+  .activeStep span {
+    padding: 6px;
+  }
+
+  .activeStep::before {
+    left: calc(-47vw + var(--b-padding-xs));
+  }
+
+  .about_work {
+    margin-top: 53px;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 135px;
+  }
+
+  .about_work_content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_work_title {
+    font-size: 26px;
+  }
+
+  .about_work_text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .about_work_img {
+    position: absolute;
+    filter: brightness(0.25);
+    width: 292px;
+    height: 292px;
+    z-index: -1;
+    top: 0;
+  }
+
+  .about_work_des {
+    gap: 24px;
+  }
+}
