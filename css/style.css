@@ -1010,9 +1010,23 @@
   .head_des {
     /* margin-top: 28px; */
     height: 160px;
-    /* margin-left: calc(var(--b-padding-xs)* -1);
-    margin-right: calc(var(--b-padding-xs)* -1); */
+    margin-left: calc(var(--b-padding-xs)* -1);
+    margin-right: calc(var(--b-padding-xs)* -1);
   }
+
+  .head_des_s1 {
+    width: var(--b-padding-xs);
+  }
+
+  .head_des_s2 {
+    width: var(--b-padding-xs);
+  }
+
+  .head_des_items {
+    margin-right: var(--b-padding-xs);
+    margin-left: var(--b-padding-xs);
+  }
+
   .head_link {
     padding: 12px 24px;
   }
