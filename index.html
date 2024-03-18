@@ -24,11 +24,46 @@
 
   <body>
     <header class="header">
-      <object
-        type="image/svg+xml"
-        data="./img/icons/icon.svg"
-        class="logo"
-      ></object>
+      <div class="logo_wrapper">
+          <object
+          type="image/svg+xml"
+          data="./img/icons/icon.svg"
+          class="logo"
+        ></object>
+        <div class="burger_nav_wrapper">
+          <nav class="burger_nav">
+            <ul class="burger_list">
+              <li class="burger_link">
+                <a aria-label="Перейти к блоку услуги">Услуги</a>
+              </li>
+              <li class="burger_link">
+                <a aria-label="Перейти к блоку подход" id="approachLinkBurger"
+                  >Подход</a
+                >
+              </li>
+              <li class="burger_link">
+                <a aria-label="Перейти к блоку кейсы">Кейсы</a>
+              </li>
+              <li class="burger_link">
+                <a aria-label="Перейти к блоку проекты" id="projectsLinkBurger"
+                  >Проекты</a
+                >
+              </li>
+              <li class="burger_link" id="connect">
+                <a aria-label="Перейти к блоку связаться" id="contactsLinkBurger">Связаться</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div>
+          <input type="checkbox" id="burger_menu"/>
+          <label class="burger" for="burger_menu">
+            <span></span>
+          </label>
+        </div>
+      </div>
+      
       <section class="title_wrapper">
         <!--      <span class="sub_title">&#8288;&#8211;&#8288;&#8288;&#8288;Вместе с нами</span>-->
         <h1 class="title">
@@ -41,6 +76,22 @@
             type="image/svg+xml"
             data="./img/icons/head_t2.svg"
             class="head_t2"
+          ></object>
+
+          <object
+            type="image/svg+xml"
+            data="./img/icons/head_xs1.svg"
+            class="head_xs1"
+          ></object>
+          <object
+            type="image/svg+xml"
+            data="./img/icons/head_xs2.svg"
+            class="head_xs2"
+          ></object>
+          <object
+            type="image/svg+xml"
+            data="./img/icons/head_xs3.svg"
+            class="head_xs3"
           ></object>
         </h1>
       </section>
@@ -130,6 +181,8 @@
     <div class="head_des">
       <span class="head_des_s1"></span>
       <span class="head_des_s2"></span>
+      <span class="head_des_xs3"></span>
+      <span class="head_des_xs4"></span>
       
       <div class="head_des_items">
         <div class="head_des_item">
@@ -137,6 +190,8 @@
           <span class="head_des_item_text">Более 10 лет экспертизы в построении сложных программных продуктов.</span>
           <span class="head_des_items_s1"></span>
           <span class="head_des_items_s2"></span>
+          <span class="head_des_items_s3"></span>
+          <span class="head_des_items_s4"></span>
         </div>
         
         <div class="head_des_item_hidden">

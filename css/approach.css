@@ -100,7 +100,7 @@
   z-index: -2;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
   .approach_steps {
     display: flex;
     gap: 16px;
@@ -146,7 +146,12 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .approach_steps {
+    margin-right: calc(var(--b-padding-s) * -1);
+    margin-left: calc(var(--b-padding-s) * -1);
+  }
+
   .approach_step {
     font-size: 20px;
   }
@@ -179,7 +184,7 @@
   } 
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .approach_steps {
     gap: 16px;
     margin-left: calc(var(--b-padding-xs)* -1);
