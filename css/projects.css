@@ -709,7 +709,7 @@
   }
 
   .case_info {
-    height: 97px;
+    height: 115px;
     margin-top: 30px;
     margin-left: calc(var(--b-padding-xs) * -1);
     margin-right: calc(var(--b-padding-xs) * -1);
@@ -717,7 +717,7 @@
 
   .case_info_content {
     overflow-y: scroll;
-    height: 79px;
+    height: 97px;
     width: calc(100vw - 2*(var(--b-padding-xs)));
     margin-right: 0;
     margin-left: 0;
@@ -726,7 +726,7 @@
 
   .case_info_item {
     min-width: 196px;
-    min-height: 79px;
+    min-height: 97px;
   }
 
   .case_info_item_num {
@@ -740,17 +740,21 @@
 
   .case_info_s1 {
     width: var(--b-padding-xs);
+    height: 10px;
   }
 
   .case_info_s2 {
     width: var(--b-padding-xs);
+    height: 10px;
   }
 
   .case_info_s3 {
     width: var(--b-padding-xs);
+    height: 10px;
   }
 
   .case_info_s4 {
     width: var(--b-padding-xs);
+    height: 10px;
   }
 }
