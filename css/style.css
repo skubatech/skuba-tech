@@ -8,6 +8,7 @@
 .logo_wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -604,6 +605,10 @@
   height: 48px;
 }
 
+.burger_wrapper {
+  display: none;
+}
+
 .burger {
   display: none;
 }
@@ -952,7 +957,7 @@
     position: absolute;
     background-color: var(--main-bg);
   }
-  
+
   .about_of {
     font-size: 20px;
   }
@@ -1096,6 +1101,10 @@
   
   .head_xs3 {
     display: block;
+  }
+
+  .burger_wrapper {
+    display: flex;
   }
 
   .burger {
