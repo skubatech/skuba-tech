@@ -329,12 +329,12 @@
   }
 
   .about_case_name {
-    font-size: 48px;
+    font-size: 42px;
     line-height: 48px;
   } 
 
   .about_case_text {
-    font-size: 26px;
+    font-size: 22px;
     margin-top: 21px;
     margin-bottom: 28px;
     max-width: 639px;
@@ -398,11 +398,11 @@
   }
   
   .case_info_item_num {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .case_info_item_text {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .about_case_tags {
@@ -464,6 +464,7 @@
   }
 
   .about_case_preview_desktop {
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 20px 10px;
     height: 329px;
   }
 
@@ -548,6 +549,7 @@
     margin-right: 0;
     overflow-y: scroll;
     padding: 0 24px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 20px 10px;
   }
 
   .case_info_item {
@@ -592,7 +594,7 @@
   .about_case_wrapper {
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: 27px;
+    margin-top: 12px;
     gap: 45px;
   }
 

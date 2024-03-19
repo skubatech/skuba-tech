@@ -22,6 +22,7 @@ const burgerMenu = document.getElementById("burger_menu");
 function scrollTo(el, isBurger) {
   if(isBurger) {
     closeBurger();
+    burgerMenu.checked = false;
   }
   el.scrollIntoView({ block: "start", behavior: "smooth" });
 }
@@ -59,8 +60,11 @@ function openBurger() {
   burger.classList.toggle("active");
   burgerNav.classList.toggle("open_burger");
   burgerNavBack.classList.toggle("burger_nav_back");
+
+  console.log(burgerMenu.checked)
   
   if(!burgerMenu.checked) {
+    console.log('check')
     document.body.style.overflow = "hidden";
   }
   else {

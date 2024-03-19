@@ -112,9 +112,15 @@
     margin-right: calc(var(--b-padding-m)* -1);
     position: relative;
   }
+  
   .approach_step {
     font-size: 24px;
   }
+
+  .activeStep::before {
+    top: -29px;
+  }
+
   .activeStep span {
     padding: 8px 34px;
   }
@@ -186,7 +192,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .approach_steps {
-    gap: 16px;
+    gap: 12px;
     margin-left: calc(var(--b-padding-xs)* -1);
     margin-right: calc(var(--b-padding-xs)* -1);
   }
@@ -209,7 +215,7 @@
     margin-top: 53px;
     position: relative;
     justify-content: center;
-    padding-bottom: 135px;
+    padding-bottom: 119px;
   }
 
   .about_work_content {
@@ -218,7 +224,7 @@
   }
 
   .about_work_title {
-    font-size: 26px;
+    font-size: 25px;
   }
 
   .about_work_text {
@@ -237,5 +243,6 @@
 
   .about_work_des {
     gap: 24px;
+    margin-top: 32px;
   }
 }
