@@ -1,0 +1,265 @@
+.about_work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 92px;
+  padding-bottom: 124px;
+}
+
+.hidden_step {
+  display: none;
+}
+
+.about_work_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_work_img {
+  width: 590px;
+  height: 590px;
+}
+
+.about_work_title {
+  font-family: "Mono Medium";
+  font-size: 48px;
+  color: var(--main-white9);
+}
+
+.about_work_des {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    max-width: 672px;
+}
+
+.about_work_text {
+  color: var(--main-white9);
+  font-family: 'Nairi';
+  font-size: 30px;
+}
+
+.approach_bg {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  margin-left: calc(var(--b-padding) * -1);
+}
+
+.approach_steps {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 16px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  background: url("../img/images/bgbg.png");
+  margin-left: calc(var(--b-padding) * -1);
+  margin-right: calc(var(--b-padding) * -1);
+  position: relative;
+}
+
+.approach_steps::before {
+  content: '';
+  background: var(--main-bg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.approach_step {
+  font-family: 'Mono Medium';
+  font-size: 28px;
+  color: var(--main-white9);
+  padding: 10px 10px 25px;
+  text-transform: uppercase;
+  max-height: 68px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.approach_step span {
+  padding: 0 34px;
+}
+
+.activeStep {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.activeStep span {
+  background: rgba(0,0,0,0.8);
+  padding: 8px 44px;;
+}
+
+.activeStep::before {
+  content: '';
+  background: url("../img/images/bgbg.png");
+  position: absolute;
+  left: calc(-47vw + var(--b-padding));
+  top: -16px;
+  width: 100vw;
+  height: 92px;
+  z-index: -2;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .approach_steps {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 16px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin-left: calc(var(--b-padding-m)* -1);
+    margin-right: calc(var(--b-padding-m)* -1);
+    position: relative;
+  }
+  
+  .approach_step {
+    font-size: 24px;
+  }
+
+  .approach_step span {
+    padding: 0 24px;
+  }
+
+  .activeStep::before {
+    top: -29px;
+  }
+
+  .activeStep span {
+    padding: 8px 34px;
+  }
+
+  .about_work {
+    margin-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .about_work_des {
+    gap: 24px;
+  }
+
+  .about_work_img {
+    width: 390px;
+    height: 390px;
+  }
+
+  .about_work_title {
+    font-size: 44px;
+  }
+
+  .about_work_text {
+    font-size: 26px;
+  }
+
+  .about_case_name {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .approach_steps {
+    margin-right: calc(var(--b-padding-s) * -1);
+    margin-left: calc(var(--b-padding-s) * -1);
+  }
+
+  .approach_step {
+    font-size: 20px;
+  }
+
+  .approach_step span {
+    padding: 0 14px;
+  }
+
+  .activeStep span {
+    padding: 12px 24px;
+  }
+
+  .activeStep::before {
+    left: calc(-47vw + var(--b-padding-s));
+    top: -31px;
+  }
+
+  .about_work {
+    margin-top: 113px;
+    padding-bottom: 159px;
+  }
+
+  .about_work_title {
+    font-size: 36px;
+  }
+
+  .about_work_text {
+    font-size: 20px;
+    max-width: 327px;
+  }
+
+  .about_work_img {
+    width: 292px;
+    height: 292px;
+  } 
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .approach_steps {
+    gap: 12px;
+    margin-left: calc(var(--b-padding-xs)* -1);
+    margin-right: calc(var(--b-padding-xs)* -1);
+  }
+
+  .approach_step {
+    font-size: 14px;
+    padding: 6px 6px 10px;
+    max-height: 46px;
+  }
+
+  .approach_step span {
+    padding: 0;
+  }
+
+  .activeStep span {
+    padding: 6px;
+  }
+
+  .activeStep::before {
+    left: calc(-47vw + var(--b-padding-xs));
+  }
+
+  .about_work {
+    margin-top: 53px;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 119px;
+  }
+
+  .about_work_content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_work_title {
+    font-size: 25px;
+  }
+
+  .about_work_text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .about_work_img {
+    position: absolute;
+    filter: brightness(0.25);
+    width: 292px;
+    height: 292px;
+    z-index: -1;
+    top: 0;
+  }
+
+  .about_work_des {
+    gap: 24px;
+    margin-top: 32px;
+  }
+}

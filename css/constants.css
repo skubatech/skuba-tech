@@ -1,0 +1,9 @@
+:root {
+    --main-bg: #0f0415;
+    --b-padding: 250px;
+    --b-padding-m: 100px;
+    --b-padding-s: 40px;
+    --b-padding-xs: 16px;
+    --main-white5: rgba(255, 255, 255, 0.5);
+    --main-white9: rgba(255, 255, 255, 0.9);
+}
