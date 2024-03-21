@@ -78,6 +78,10 @@
   cursor: pointer;
 }
 
+.approach_step span {
+  padding: 0 34px;
+}
+
 .activeStep {
   overflow: hidden;
   position: relative;
@@ -115,6 +119,10 @@
   
   .approach_step {
     font-size: 24px;
+  }
+
+  .approach_step span {
+    padding: 0 24px;
   }
 
   .activeStep::before {
@@ -162,12 +170,17 @@
     font-size: 20px;
   }
 
+  .approach_step span {
+    padding: 0 14px;
+  }
+
   .activeStep span {
     padding: 12px 24px;
   }
 
   .activeStep::before {
     left: calc(-47vw + var(--b-padding-s));
+    top: -31px;
   }
 
   .about_work {
@@ -201,6 +214,10 @@
     font-size: 14px;
     padding: 6px 6px 10px;
     max-height: 46px;
+  }
+
+  .approach_step span {
+    padding: 0;
   }
 
   .activeStep span {

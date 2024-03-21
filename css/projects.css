@@ -84,11 +84,38 @@
 }
 
 .about_case_link {
+  width: min-content;
+  position: relative;
   font-family: "Mono Medium";
   color: var(--main-white9);
   font-size: 32px;
   cursor: pointer;
   text-decoration: none;
+  padding: 0 16px;
+  margin-left: 16px;
+  transition: all .3s ease-in-out;
+}
+
+.about_case_link_text::before {
+  position: absolute;
+  transition: all .3s ease-in-out;
+  content: '{';
+  left: -16px;
+}
+
+.about_case_link_text::after {
+  position: absolute;
+  transition: all .3s ease-in-out;
+  content: '}';
+  right: -16px;
+}
+
+.about_case_link:hover .about_case_link_text::after {
+  right: -30px;
+}
+
+.about_case_link:hover .about_case_link_text::before {
+  left: -30px;
 }
 
 .about_case_preview {
@@ -524,8 +551,10 @@
 
   .about_case_link {
     font-size: 24px;
+    padding: 0 8px;
+    margin-left: 0;
   }
-
+  
   .about_case_tags {
     display: none;
   }
@@ -699,6 +728,8 @@
 
   .about_case_link {
     font-size: 18px;
+    padding: 0 8px;
+    margin-left: 0;
   }
 
   .about_case_tags {
